@@ -1,0 +1,23 @@
+* {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+/*Chrome, Edge and Safari*/
+body::-webkit-scrollbar{
+  width: 10px;
+}
+*::-webkit-scrollbar-track{
+  background-color: rgba(255, 0, 0, 0.798);
+}
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(216, 216, 232);
+  border-radius: 20px;
+  border: 2px solid rgba(255, 0, 0, 0.798);
+  
+}
+/*FireFox*/
+*{
+  scrollbar-width: thin;
+  scrollbar-color: rgb(216, 216, 232) rgba(255, 0, 0, 0.798);
+}
