@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fotes/static/Inter-Thin.ttf');
+}
+.marca{
+    color: rgb(27, 25, 25);
+    font-family: 'Inter';
+    font-style: normal ;
+    font-weight: 100 ;
+}
+/*Compativel com mozila*/
+@-moz-document url-prefix(){
+    .templants{
+        margin-left: -60px;
+    }
+    .templantsConteudo{
+        margin-top: -280px;
+    }
+    .templantsLetraTop{
+        margin-bottom: -110px;
+    }
+    .templantsCirculo{
+        margin-top: -240px;
+    }
+    .marcas{
+        margin-left: -60px;
+    }
+    .marcasConteudo{
+        margin-top: -520px;
+    }
+    .marcasLetaTop{
+        margin-bottom: -120px;
+    }
+    .marcasCirculo{
+        margin-top: -251px;
+    }
+    .animacao{
+        margin-left: -60px;
+    }
+    .animacaoConteudo{
+        margin-top: -380px;
+    }
+    .animacaoLetraTop{
+        padding-top: 7cm;
+    }
+    .animacaoLetraTopMobile{
+        padding-top: 1cm;
+        margin-bottom: -3cm;
+    }
+    /*Cartão de Visita*/
+    .cvMdSelecionado{
+        width: 440px;
+    }
+    .cvLgSelecionado{
+        width: 490px;
+    }
+    .cvLegenda{
+        width: 440px;
+    }
+    .cvLegendaRight{
+        right: 0px;
+        
+    }
+}
