@@ -109,10 +109,11 @@ export function Template() {
               component="span"
               sx={{
                 backgroundColor: "#0000009f",
-                color: "#fff",
+                color: "#ffffff",
                 padding: "0px 4px",
                 fontSize: 10,
                 position: "absolute",
+                zIndex:1
               }}
             >
               {getImagem.id} / {AllImage.length}

@@ -18,26 +18,34 @@ export function CartaoVisita() {
     {
       id: 1,
       modelo: "Design",
-      image: "/img/designers/cartao-visita/1.jpg",
+      image: "/img/designers/cartao-visita/1.jpg", 
       imag2: "/img/designers/cartao-visita/2.jpg",
+      width: 616,
+      height: 350,
     },
     {
       id: 2,
       modelo: "Tavares",
       image: "/img/designers/cartao-visita/3.jpg",
       imag2: "/img/designers/cartao-visita/3.jpg",
+      width: 356,
+      height: 233,
     },
     {
       id: 3,
       modelo: "Necaidy",
       image: "/img/designers/cartao-visita/4.jpg",
       imag2: "/img/designers/cartao-visita/4.jpg",
+      width: 635,
+      height: 365,
     },
     {
       id: 4,
       modelo: "liliana",
       image: "/img/designers/cartao-visita/5.jpg",
       imag2: "/img/designers/cartao-visita/5.jpg",
+      width: 750,
+      height: 395,
     },
   ];
 
@@ -52,10 +60,12 @@ export function CartaoVisita() {
     src: string;
     src2?: string;
     id: number;
-  }>({ src: AllImage[0].image,src2: AllImage[0].imag2, id: AllImage[0].id });
+    naturalWidth?: number;
+    naturalHeight?: number;
+  }>({ src: AllImage[0].image,src2: AllImage[0].imag2, id: AllImage[0].id, naturalWidth: AllImage[0].width,naturalHeight:AllImage[0].height });
 
-  const handledImagemSelected = (src: string, id: number, modelo?: string,src2?: string) => {
-    setImagem({ src,src2, id });
+  const handledImagemSelected = (src: string, id: number,naturalWidth: number,naturalHeight: number,modelo?: string,src2?: string) => {
+    setImagem({ src,src2, id, naturalWidth,naturalHeight });
     setNomeEstilo({ modelo });
   };
 
@@ -87,7 +97,7 @@ export function CartaoVisita() {
             return (
               <Box
                 onClick={(e: any) =>
-                  handledImagemSelected(item.image, item.id, item.modelo,item.imag2)
+                  handledImagemSelected(item.image, item.id,item.width,item.height, item.modelo,item.imag2)
                 }
                 component="img"
                 src={item.image}
@@ -166,6 +176,9 @@ export function CartaoVisita() {
                 <Typography variant="h2" component="h2" fontSize={13}>
                   {getNomeEstilo.modelo}
                 </Typography>
+                <Typography variant="h3" component="h3" fontSize={9}>
+                {getImagem.naturalWidth} x {getImagem.naturalHeight}
+            </Typography>
                 <ModalBasic modalTitulo="Cartão De Visita" modalDescricao="Preçario" />
               </Box>
             </Box>
