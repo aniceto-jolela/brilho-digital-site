@@ -74,7 +74,7 @@ Para rodar o projecto em sua máquina vai precisar instalar as seguintes ferrame
 
 ```bash
 # Clone este repositório
-$ git clone <>
+$ git clone https://github.com/aniceto-jolela/brilho-digital-site.git
 
 # Acesse a pasta do projecto no terminal/cmd
 $ cd brilho-digital-site
