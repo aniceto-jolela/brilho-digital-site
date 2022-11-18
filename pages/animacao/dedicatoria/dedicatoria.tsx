@@ -88,7 +88,7 @@ export function Dedicatoria() {
           modelo={getNomeEstilo.modelo}
           video={getVideo}
           modalTitulo="Dedicatória"
-          modalDescricao="Fotografia Artistica cada 700kz."
+          modalDescricao="Dedicatória cada [...]kz."
         >
           <Box
             component="span"

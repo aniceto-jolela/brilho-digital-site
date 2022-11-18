@@ -113,7 +113,7 @@ export function Branding() {
           modelo={getNomeEstilo.modelo}
           imagem={getImagem}
           modalTitulo="Preçário provisório"
-          modalDescricao="Fotografia Artistica cada 700kz."
+          modalDescricao="Branding cada [...]kz."
         >
           <Box
             component="span"

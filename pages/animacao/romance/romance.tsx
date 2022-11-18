@@ -83,7 +83,7 @@ export function Romance() {
           modelo={getNomeEstilo.modelo}
           video={getVideo}
           modalTitulo="Preçário provisório"
-          modalDescricao="Fotografia Artistica cada 700kz."
+          modalDescricao="Romance cada [...]kz."
         >
           <Box
             component="span"

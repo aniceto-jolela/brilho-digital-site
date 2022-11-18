@@ -88,7 +88,7 @@ export function Ficcao() {
           modelo={getNomeEstilo.modelo}
           video={getVideo}
           modalTitulo="Ficção"
-          modalDescricao="Fotografia Artistica cada 700kz."
+          modalDescricao="Ficção cada [...]kz."
         >
           <Box
             component="span"

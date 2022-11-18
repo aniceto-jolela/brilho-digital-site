@@ -98,7 +98,7 @@ export function Mockup() {
           modelo={getNomeEstilo.modelo}
           imagem={getImagem}
           modalTitulo="Preçário provisório"
-          modalDescricao="Fotografia Artistica cada 700kz."
+          modalDescricao="Mockup cada [...]kz."
         >
           <Box
             component="span"

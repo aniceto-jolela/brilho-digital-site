@@ -108,7 +108,7 @@ export function Flyer() {
           modelo={getNomeEstilo.modelo}
           imagem={getImagem}
           modalTitulo="Preçário provisório"
-          modalDescricao="Fotografia Artistica cada 700kz."
+          modalDescricao="Flyer cada [...]kz."
         >
           <Box
             component="span"
