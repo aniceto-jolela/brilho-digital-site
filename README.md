@@ -84,5 +84,5 @@ The following tools were used in the construction of the project:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
- <h6> Author : Aniceto Jolela 🥰 </h6>
+###### Author : Aniceto Jolela 🥰 
 - [Linkedin](https://www.linkedin.com/in/aniceto-jolela-076547184/)
