@@ -19,23 +19,8 @@
     <h3>Ilustrações dos vídeos.: 1ª.Figma 2ª.Desktop 3ª.Mobile</h3>
 </div>
 
-<div style='text-align:center '>
-    <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        <source src="public/videos/site/Mockup-Figma.mp4" type="video/ogg">
-            Mockup-Figma.
-    </video>
-    <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        <source src="public/videos/site/Desktop.mp4" type="video/ogg">
-            Desktop.
-    </video> 
-    <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
-        <source src="public/videos/site/Mobile.mp4" type="video/ogg">
-            Mobile.
-    </video> 
-</div>
+[Local de ilustração do projecto](public/videos/site)
+
 
 # Dependencias
 
