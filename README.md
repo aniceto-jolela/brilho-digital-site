@@ -1,28 +1,28 @@
 
 <div style='text-align:center '>
     <img src='public/img/logo.svg' width=100 /><br/><br/>
-    <h1>brilho-digital-site</h1>
+    <h1>brightness-digital-site</h1>
 </div>
 
-# Sumário
+# Summary
 
-* [Dependência](#dependencias)
-* [Dependência de desenvolvimento](#dependencia-de-desenvolvimento)
-* [Pré requisitos](#pre-requisitos)
-* [Rodando o Front-End](#rodando-o-front-end)
-* [Tecnologias](#tecnologias)
+* [Dependency](#dependency)
+* [development dependency](#development-dependency)
+* [Prerequisites](#prerequisites)
+* [Running the Front-End](#running-the-front-end)
+* [Technologies](#technologies)
 
 
 <div style='text-align:center '>
-    <h2>Este é um projecto de venda de <strong> fotos, designers e vídeos </strong>; área de front-end.</h2> 
-    <h3>feito em Nextjs.</h3>
-    <h3>Ilustrações dos vídeos.: 1ª.Figma 2ª.Desktop 3ª.Mobile</h3>
+    <h2>This is a project to sell photos, designers and videos; frontend area.</h2> 
+    <h3>done in Nextjs.</h3>
+    <h3>Video illustrations.: 1st.Figma 2nd.Desktop 3rd.Mobile.</h3>
 </div>
 
-[Local de ilustração do projecto](public/videos/site)
+[Project illustration site dependencies](public/videos/site)
 
 
-# Dependencias
+# Dependency
 
 ```bash
 
@@ -38,7 +38,7 @@
     "react-swipeable-views": "^0.14.0",
     "react-swipeable-views-utils": "^0.14.0"
 ```
-# Dependencia-de-desenvolvimento
+# development-dependency
 ```bash
     "@types/node": "18.0.3",
     "@types/react": "18.0.15",
@@ -49,32 +49,32 @@
     "eslint-config-next": "12.2.0",
     "typescript": "4.7.4"
 ```
-## Pre-requisitos
+## Prerequisites
 
-Para rodar o projecto em sua máquina vai precisar instalar as seguintes ferramentas:</br>
-[Git](https://git-scm.com), [VSCode](https://code.visualstudio.com/) e [Node.js](https://nodejs.org/en/).</br>
+To run the project on your machine you will need to install the following tools::</br>
+[Git](https://git-scm.com), [VSCode](https://code.visualstudio.com/) and [Node.js](https://nodejs.org/en/).</br>
 
 
-## Rodando-o-Front-End
+## Running-the-Front-End
 
 ```bash
-# Clone este repositório
+# Clone this repository
 $ git clone https://github.com/aniceto-jolela/brilho-digital-site.git
 
-# Acesse a pasta do projecto no terminal/cmd
-$ cd brilho-digital-site
+# Access the project folder in terminal/cmd
+$ cd brightness-digital-site
 
-#Instale as dependências
+# install the dependencies
 $ yarn
 
-# Execute a aplicação em modo de desenvolvimento 
+# Run the application in development mode 
 $ yarn dev
 
-# O servidor iniciará na porta:3000 - acesse <http://localhost:3000>
+# The server will start on port:3000 - go to <http://localhost:3000>
 ```
-### Tecnologias
+### Technologies
 
-As seguintes ferramentas foram usadas na construção do projecto:
+The following tools were used in the construction of the project:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Nextjs](https://nextjs.org/docs)
@@ -84,5 +84,5 @@ As seguintes ferramentas foram usadas na construção do projecto:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 
-### Autor : Aniceto Jolela 🥰
+### Author : Aniceto Jolela 🥰
 - [Linkedin](https://www.linkedin.com/in/aniceto-jolela-076547184/)
