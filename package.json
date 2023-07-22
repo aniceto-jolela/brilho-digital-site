@@ -5,8 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    //"build": "babel src -d lib",
-    //"prebuild": "jest"
     "start": "next start",
     "lint": "next lint"
   },
